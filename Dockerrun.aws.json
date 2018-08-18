@@ -1,0 +1,11 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Volumes": [
+    {
+      "HostDirectory": "/efs/jenkins/home",
+      "ContainerDirectory": "/var/jenkins_home"
+    }
+  ]
+}
+
+
